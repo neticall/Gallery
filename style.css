@@ -1,7 +1,7 @@
 .container {
-  display: flex;
-  margin: 2vh auto;
   width: 80%;
+  margin: 2vh auto;
+  display: flex;
 }
 
 body {
