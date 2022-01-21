@@ -1,12 +1,7 @@
 .container {
   display: flex;
   margin: 2vh auto;
-}
-
-@media only screen and (min-width: 700px) {
-  .container {
-    width: 80%;
-  }
+  width: 100%;
 }
 
 body {
@@ -27,4 +22,19 @@ span {
 .active {
   width: 60%;
   border-radius: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  span {
+    width: 90%;
+    height: 8vh;
+  }
+  .active {
+    width: 90%;
+    height: 50vh;
+  }
 }
