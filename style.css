@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  margin: 5vh auto;
+  margin: 2vh auto;
 }
 
 @media only screen and (min-width: 700px) {
@@ -15,7 +15,7 @@ body {
 
 span {
   width: 8%;
-  height: 90vh;
+  height: 93vh;
   margin: 8px;
   background-position: center;
   box-shadow: 0 0 10px white;
