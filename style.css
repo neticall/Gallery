@@ -1,7 +1,7 @@
 .container {
   display: flex;
   margin: 2vh auto;
-  width: 100%;
+  width: 80%;
 }
 
 body {
@@ -27,14 +27,13 @@ span {
 @media only screen and (max-width: 700px) {
   .container {
     flex-wrap: wrap;
-    width: 90%;
   }
   span {
-    width: 90%;
+    width: 100%;
     height: 8vh;
   }
   .active {
-    width: 90%;
+    width: 100%;
     height: 50vh;
   }
 }
